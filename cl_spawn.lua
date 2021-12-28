@@ -33,7 +33,7 @@ end)
 RegisterNUICallback("spawn", function(data)
     DoScreenFadeOut(1000)
     SetNuiFocus(false, false)
-    TriggerEvent("gr-spawn:client:loadplayer", data.coords)
+    TriggerEvent("qy-spawn:client:loadplayer", data.coords)
 end)
 
 RegisterNUICallback('sonkonum', function(data, cb)
