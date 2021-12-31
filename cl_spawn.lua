@@ -17,8 +17,6 @@ end)
 
 RegisterNetEvent("qy-spawn:opennui")
 AddEventHandler("qy-spawn:opennui", function(pos)
-	DoScreenFadeIn(500)
-    local playerPed = PlayerPedId()
     SendNUIMessage({ data = spawns, lastpos = pos })
     openCam()
     SetNuiFocus(true, true)
